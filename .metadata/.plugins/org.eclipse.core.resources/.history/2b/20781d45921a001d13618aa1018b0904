@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class IntervaloNumerosImpares {
+    public static void main(String [] args) {
+    	Scanner sc = new Scanner(System.in);
+    	int i, f;
+    	int impar;
+    	
+    	System.out.println("Digite o valor inicial: ");
+    	i=sc.nextInt();
+    	
+    	System.out.println("Digite o valor final: ");
+    	f=sc.nextInt();
+    	
+    	
+    	while(i <= f) {
+    		i++;
+    		if(i%2 != 0) {
+    			impar = i;
+    			System.out.print(impar);
+    			
+    		}
+    	}
+    }
+}
